@@ -1,0 +1,23 @@
+{
+  "name": "popice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build src/styles.css -o public/styles.css --watch" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neurolinker/popice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neurolinker/popice/issues"
+  },
+  "homepage": "https://github.com/neurolinker/popice#readme",
+  "dependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
