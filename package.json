@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build-css": "tailwindcss build src/styles.css -o public/styles.css --watch" 
+    "build-css": "tailwindcss build src/styles.css -o public/styles.css",
+    "dev-server" : "live-server public",
+    "dev" : "npm run build-css --watch && npm run dev-server",
+    "build" : "npm run build-css"
   },
   "repository": {
     "type": "git",
